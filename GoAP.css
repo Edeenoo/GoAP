@@ -1,3 +1,16 @@
 body {
+    color: red;
+    width: 100%;
+    margin: 0%;
+}
 
+#topp {
+    background-color: darkgoldenrod;
+    position: relative;
+    padding: 5px;
+}
+
+#itopp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
