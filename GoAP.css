@@ -1,26 +1,61 @@
+
+@layer topps, bodys, spalters;
+
+
+@layer bodys {
 body {
-    color: red;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     margin: 0px;
 }
+}
 
+@layer topps {
 #topp {
     background-color: darkgoldenrod;
     position: fixed;
     width: 100%;
     padding: 5px;
-    margin: 0px;
+    margin-top: -150px;
+    border-bottom: solid rgb(132, 59, 54) 2px;
 }
 
 #itopp {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0;
+}
+}
+
+@layer spalters {
+#spalter {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    margin-top: 150px;
+    
+}
+
+#leftmain {
+    background-color: rgb(210, 198, 170);
+    padding: 20px;
+    margin-right: 20px;
 }
 
 #main {
+    background-color: rgb(210, 198, 170);
+    padding: 20px;
     
-    margin: 0 30%;
-    margin-top: 10px;
-    padding-top: 30px;
+}
 
+#rightmain {
+    margin-top: 100px;
+}
+
+.subright {
+    position: relative;
+    background-color: rgb(210, 198, 170);
+    padding: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
 }
