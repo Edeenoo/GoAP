@@ -1,16 +1,13 @@
 
-@layer topps, bodys, spalters;
 
-
-@layer bodys {
 body {
     background-color: rgb(255, 255, 255);
     width: 100%;
     margin: 0px;
 }
-}
 
-@layer topps {
+
+
 #topp {
     background-color: darkgoldenrod;
     position: fixed;
@@ -25,9 +22,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 0;
 }
-}
 
-@layer spalters {
+
+
 #spalter {
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
@@ -48,14 +45,17 @@ body {
 }
 
 #rightmain {
-    margin-top: 100px;
+    margin-top: 20px;
+}
+
+#lowerrightmain {
+    position: fixed;
 }
 
 .subright {
-    position: relative;
+    
     background-color: rgb(210, 198, 170);
     padding: 20px;
     margin-left: 20px;
     margin-bottom: 20px;
-}
 }
